@@ -41,6 +41,7 @@ function drawCircle(clickEvent){
     divv.style.borderRadius = 50 + "%";
     divv.style.border = 1 + "px solid red";
     divv.style.background = "red";
+    divv.style.opacity = 50 + "%";
 
     // set the position to center of pointer;
     divv.style.left = x_cord - radius + "px";
